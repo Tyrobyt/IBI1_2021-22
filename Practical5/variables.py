@@ -11,3 +11,10 @@ elif (d-e==0):
   print ("d=e")
 else:
   print ("d<e, the rate of new cases in 2021 is greater than 2020")
+
+X="True"
+Y="False"
+#combine X and Y
+W=X+Y
+print (W)
+
