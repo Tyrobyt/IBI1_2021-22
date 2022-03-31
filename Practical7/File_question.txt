@@ -1,0 +1,9 @@
+Question: How have new cases and total cases developed over time in Spain?
+line number: 60~73
+result: 
+As shown in the figure, Spain had a slow growth in new cases and total cases at the beginning. 
+However, since February 2020, the number of new cases has increased slowly, similar to Linear function; 
+the total number of cases increased sharply, showing a U-shaped curve. 
+Because the total number of cases is the sum of new cases, assuming that the relationship between the increase of new cases and the date is y = X, 
+then the total number of cases curve is y = (1 + X) * X/2,
+ which is similar to a quadratic function, so it is U-shaped.
