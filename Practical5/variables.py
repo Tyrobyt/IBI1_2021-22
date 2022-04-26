@@ -14,7 +14,7 @@ else:
 
 X="True"
 Y="False"
-#combine X and Y
+#combine X and Y to W
 W=X and Y
 print (W)
 
