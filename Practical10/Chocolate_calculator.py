@@ -16,8 +16,13 @@ def calculator(x,y):
     print('the number of chocolate bars we can brought:'+str(y//x))
     print('the charge will be left over:'+str(y%x))
     return (x,y)
-# now input x and y for calculating
-y=input("Total money = ")
-x=input("Price = ")
+# here is an example
+y=200
+x=21
 calculator(x,y)
+# input your data here
+y=input("Total money = ")
+x=input("Price=")
+calculator(x,y)
+
 
