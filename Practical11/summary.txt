@@ -1,0 +1,32 @@
+The output of Alignment.py is:
+
+Name and Sequence of Protein
+mouse = {'DLX5_MOUSE (P70396) ': 'MTGVFDRRVPSIRSGDFQAPFPTSAAMHHPSQESPTLPESSATDSDYYSPAGAAPHGYCSPTSASYGKALNPYQYQYHGVNGSAAGYPAKAYADYGYASPYHQYGGAYNRVPSATSQPEKEVAEPEVRMVNGKPKKVRKPRTIYSSFQLAALQRRFQKTQYLALPERAELAASLGLTQTQVKIWFQNKRSKIKKIMKNGEMPPEHSPSSSDPMACNSPQSPAVWEPQGSSRSLSHHPHAHPPTSNQSPASSYLENSASWYPSAASSINSHLPPPGSLQHPLALASGTLY'}
+human = {'DLX5_HUMAN (P56178)': 'MTGVFDRRVPSIRSGDFQAPFQTSAAMHHPSQESPTLPESSATDSDYYSPTGGAPHGYCSPTSASYGKALNPYQYQYHGVNGSAGSYPAKAYADYSYASSYHQYGGAYNRVPSATNQPEKEVTEPEVRMVNGKPKKVRKPRTIYSSFQLAALQRRFQKTQYLALPERAELAASLGLTQTQVKIWFQNKRSKIKKIMKNGEMPPEHSPSSSDPMACNSPQSPAVWEPQGSSRSLSHHPHAHPPTSNQSPASSYLENSASWYTSAASSINSHLPPPGSLQHPLALASGTLY'}
+random = {'RandomSeq': 'GDYHNIYEMQSTDNDVIIVLCESYWQNRYWCGYKQNCIFEDSSLFAPSEVDWAVNGYPPYRAVNMHKYEYDYATPTPQKMMWWHLPIWSWHFWGWNIRTWDILTNSGNTMGFCYCAWVCNLPCMILCHARFAFSTDKKPFSVHTFIIKICHTQPALAVTEPNADSCCMIFPLIGKSYCHTCGTWDFYPNEVKYQFNFSAATQYENVIYIFHHICQDVRRGCTDIELNHFWMSHHVANRKLENIVGYRAILRFIGSKCAQNMRSLFAHPWQSFQDHKEYDWHGNLGLNWP'}
+
+Distance Score
+1 score represents the difference between one corresponding protein sequence
+mouse vs human: Distance Score = 10
+mouse vs random: Distance Score = 280
+human vs random: Distance Score = 281
+
+Percentage of Identical Amino Acids
+mouse vs human = 96.53979238754326%
+mouse vs random = 3.1141868512110724%
+human vs random = 2.768166089965398%
+
+Score of BLOSUM62
+mouse VS human = 45
+mouse VS random = -738
+human VS random = -741
+
+Process finished with exit code 0
+
+It can be seen from the data that the difference between mouse and human protein sequences is small, only ten amino acids are different, and the identical amino acid accounts for 96.5%, which shows that they have high similarity. In contrast, when the mouse and human protein sequences were compared with random protein sequences, the number of different amino acids reached 280 and 281, while the proportion of identical amino acids was only about 3%, indicating their low similarity.
+When looking at their BLOSUM62 scores, the mouse and human score (45) is much higher than the scores compared to the random sequence (-738 and -741), this indicates a higher degree of amino acid correspondence in mouse and human, which suggests a high degree of homology between the two proteins.
+Evolutionarily speaking, both humans and rats are mammals that evolved from a common ancestor, so the DNA sequences in their bodies have shown some similarity (Campbell et al., 2014). And because DNA encodes the primary structure of proteins (Campbell et al., 2014), some protein sequences in humans and rats are highly similar, as in the two proteins we tested. 
+Biologically speaking, as proteins are one of the basic substances that make up living organisms, they play a role in almost all life activities (Campbell et al., 2014). Because both humans and rats perform many similar life activities and as the structure determines function, the structure of certain proteins is similar in humans and rats.
+
+Reference
+Campbell, N. A., Reece, J. B., Urry, L., Cain, M. L., Wasserman, S.A., & Minorsky, P. V. , et al. (2014). Biology : a global approach with masteringbiology, global edition:global edition. pearson schweiz ag.
