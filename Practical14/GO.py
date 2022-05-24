@@ -48,13 +48,13 @@ for i, (key,value) in enumerate(result.items()):
     all_list.append(value)
     if judge[i]==1:
         trans_list.append(value)
-#draw the boxplot of the distribution of child nodes across terms related to translation
+# draw the boxplot of the distribution of child nodes across terms related to translation
 plt.boxplot(result.values(), vert=True, showmeans=True)
 plt.title('Distribution of child node number of all GO terms')
 plt.xlabel("all GO terms")
 plt.ylabel("Number of Child nodes")
 plt.show()
-#draw the boxplot of the distribution of chaild nodes across all terms
+# draw the boxplot of the distribution of chaild nodes across all terms
 plt.boxplot(trans_list, vert=True, showmeans=True)
 plt.title('Distribution of child node number of translation related terms ')
 plt.xlabel("Translation related term")
