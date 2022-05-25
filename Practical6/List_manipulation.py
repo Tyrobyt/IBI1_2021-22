@@ -17,6 +17,8 @@ plt.boxplot(Scorelist,
             showcaps=True,
             notch=False
             )
+plt.xlabel("tests")
+plt.ylabel("marks")
 plt.show()
 # then, I will calculate the average of Rob's scores
 sum=sum(Scorelist)
