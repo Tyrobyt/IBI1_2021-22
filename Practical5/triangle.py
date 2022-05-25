@@ -4,10 +4,10 @@
 # change the value of a in each circle by a = a+n
 # use while loop
 
-a=0
+a=1
 n=1
-while n<10:
- a=a+n
+for i in range(1,10):
  n=n+1
- print 'the',n,'th triangle number is',a
+ a+=n
+ print('the '+str(n)+'th triangle number is '+str(a))
 
