@@ -5,8 +5,7 @@ Response:
 The Practical4 is resubmitted in a formal by git.
 
 Practical5 Feedback:
-1. W is not correctly defined, it should be 'X and Y'	
-2 
+W is not correctly defined, it should be 'X and Y'	
 Check it displayes the first 10 values of the Triangle sequence (1,3,6,10,15,21,28,36,45,55)	3	0	Not display
 
 Response：
